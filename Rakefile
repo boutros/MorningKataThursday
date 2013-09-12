@@ -6,4 +6,5 @@ RSpec::Core::RakeTask.new(:spec) do |t|
 	t.rspec_opts = '--format doc'
 end
 
+
 task :default => :spec
